@@ -23,14 +23,14 @@ To use Composer:
     ```json
     {
         "require": {
-			"search-engine/crawling-search-engine": "^2.1"
+			"search-engine/crawling-search-engine": "^2.3"
         }
     }
     ```
 - OR 
   ```
   composer require search-engine/crawling-search-engine
-  
+
   ```
 - Install `crawling-search-engine` package via Composer
 
