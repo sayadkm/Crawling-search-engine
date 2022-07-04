@@ -1,0 +1,18 @@
+{
+    "name": "search-engine/crawling-search-engine",
+    "description": "The package is supposed to be a library for crawling search engine results and extracting metadata for a set of keywords for the first 5 pages.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SearchEngine\\CrawlingSearchEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "require": {}
+}
