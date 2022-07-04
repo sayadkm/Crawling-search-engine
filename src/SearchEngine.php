@@ -119,7 +119,7 @@ class SearchEngine
 					            $result[] = array(
 					            	'keyword' => $keyword,
 					                'rank' => $rank,
-					                'title' => strip_tags($ad_h3->innertext), 
+					                'title' => (isset($ad_h3)) ? strip_tags($ad_h3->innertext) : '', 
 					                'url' => $link, 
 					                'description' => (isset($desc)) ? strip_tags($desc->innertext) : '',
 					                'promoted' => 1 
@@ -143,7 +143,7 @@ class SearchEngine
 					            $result[] = array(
 					            	'keyword' => $keyword,
 					                'rank' => $rank,
-					                'title' => strip_tags($h3->innertext), 
+					                'title' => (isset($h3)) ? strip_tags($h3->innertext)  : '', 
 					                'url' => $link, 
 					                'description' => (isset($desc)) ? strip_tags($desc->innertext) : '',
 					                'promoted' => 0 
