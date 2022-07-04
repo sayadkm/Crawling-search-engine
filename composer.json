@@ -14,5 +14,8 @@
             "email": "john@example.com"
         }
     ],
-    "require": {}
+    "require": {
+            "php": ">=7.2",
+            "ext-curl": "*"
+    }
 }
